@@ -1,0 +1,121 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box;
+}
+.p-body
+{
+	background-color: whitesmoke;
+}
+.profile-table
+{
+	margin:5% 40% ;
+	width: 350px;
+	height:500px;
+	float:left;
+	display: block;
+	justify-content: center;
+	background-color:white;
+	border-radius: 20px;
+}
+.profile-table2
+{
+	margin:5% 40% ;
+	width: 350px;
+	height:550px;
+	float:left;
+	display: block;
+	justify-content: center;
+	background-color:white;
+	border-radius: 20px;
+}
+.main-name
+{
+	
+}
+.img-containor
+{
+	display: flex;
+	justify-content: center;
+	
+	margin: 10px;
+}
+.pro-pic
+{
+	margin: 5px;
+}
+.button-ED
+{
+	padding-top: 75%;
+}
+.button-ED img
+{
+	padding-bottom: 2px;
+}
+.pro-content
+{
+	
+	float:left;
+	display: block;
+	justify-content: center;
+}
+.name
+{
+	
+	flex: wrap;
+	display: flex;
+	justify-content: center;
+}
+.lable-pro
+{
+	padding-left: 15px;
+	margin-right: 10px;
+	display: block;
+	justify-content: center
+}
+h5
+{
+	margin:   5px 0 ;
+	font-family: "Times New Roman";
+	font-size: 15px;
+	height: 25px;
+	width: 120px;
+	
+}
+.input-pro
+{
+	padding: 5px 0;
+}
+input
+{
+	padding: 5px 0;
+}
+input[type=text]
+{
+	padding-left: 1px;
+	height: 25px;
+	width: 185px;
+	margin: 0 0 5px ;
+}
+input[type=button]
+{
+	width: 80px;
+	height: 30px;
+	
+	background-color: transparent;
+	font-family:  "Times New Roman";
+	font-size: 15px;
+	border-color: aqua;
+	border-radius:0;
+}
+input[type=button]:hover
+{
+	background-color: aqua;
+	border: none;
+}
+
+.back-button
+{
+	padding: 0 0 0 70%;
+}

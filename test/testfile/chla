@@ -1,0 +1,32 @@
+<!--------------------------------------------------------------------------------Sign In------------------------------------------------------------------------------------------->
+
+<?php
+if (isset($_POST["btnSubmit"])) {
+
+    $email = $_POST["txtemail"];
+    $pass = $_POST["txtPassword"];
+    $valid = false;
+
+
+
+    $con = mysqli_connect("localhost", "root", "", "cngraphy");
+
+    if (!$con) {
+        die("Connect to a database");
+    }
+    $sql = "SELECT * FROM `user` WHERE `Email`='" . $email . "' and `Password` ='" . $pass . "'";
+
+    $result = mysqli_query($con, $sql);
+    if (mysqli_num_rows($result) > 0) {
+        $valid = true;
+    }
+} else {
+    $valid = false;
+}
+if ($valid) {
+    $_SESSION["txtemail"] = $email;
+    header("Location:../HTML/home.html");
+} else {
+    echo "Please enter correct usernamr and password";
+}
+?>

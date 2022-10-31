@@ -1,0 +1,93 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box;
+	
+}
+.frame
+{
+	justify-content: center;
+    flex: wrap;
+    display:flex;
+
+}
+.log-in
+{   
+	padding: 5%;
+	margin-top:100px; 
+	width:30%; 
+	justify-content: center;
+    flex: wrap;
+    display:block;
+	background-color:whitesmoke;
+	border-color: transparent;
+}
+.form-log
+{
+	width: 95%;
+	background-color:whitesmoke;
+	
+}
+/*h2
+{
+	background-color: white;
+}
+form
+{
+	background-color: white;
+}*/
+.title
+{
+	padding: 1% 1% 4% 6%;
+	font-family: "Times New Roman";
+	font-size: 20px;
+	background-color:transparent;
+	justify-content: center;
+}
+.p
+{
+	padding-left: 20%;
+	width: 95%;
+	padding-bottom: 5px;
+	
+}
+.p2
+{
+	padding-right: 75px;
+	justify-content: right;
+    flex: wrap;
+    display:flex;	
+}
+.p2 button
+{
+	margin-left: 3px;
+}
+.p3
+{
+	padding-left: 40px;
+	padding-top: 10px;
+}
+input
+{
+	width: 80%;
+	height: 25px;
+}
+button
+{
+	
+	width: 70px;
+	height: 25px;
+	
+	background-color: white;
+	font-family:  "Times New Roman";
+	font-size: 15px;
+	border-color: blue;
+	border-radius:0;
+	
+}
+ button:hover 
+{
+	background-color:white;
+	border-color: aqua;
+}

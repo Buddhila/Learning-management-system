@@ -1,0 +1,186 @@
+/*
+.navbar
+{
+	width: 88%;
+	margin: auto;
+	padding: 0px 100px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	font-family: "Times New Roman";
+	font-size: 20px;
+	position: absolute;	
+	background-color:aliceblue;
+	
+}
+
+.logo
+{
+	width: 100px;
+	cursor:pointer;
+}
+
+.navbar ul li
+{
+	list-style: none;
+	display: inline-block;
+	margin: 0 15px;
+	position: relative;
+}
+
+.navbar ul li a
+{
+	text-decoration: none;
+	color: black;
+	padding: 2px 15px;
+	font-size: 16px;
+}
+
+.navbar ul li::after
+{
+	content: '';
+	height: 3px;
+	width: 0%;
+	background:#FFFFFF;
+	position: absolute;
+	left:0;
+	bottom: -5px;
+	transition: 0.2s;
+}
+
+.navbar li a:hover{
+	background: #B02C2E;
+	color: #636161;
+} 
+
+.navbar ul li:hover::after
+{
+	width: 100%
+}
+*/
+
+.navbar
+{
+	width: 100%;
+	height: 75px;
+	margin: auto;
+	
+}
+.icon
+{
+	width: 200px;
+	float: left;
+	height: 40px;
+}
+.logo
+{
+	width: auto;
+	height: 20px;
+	margin-top:27px;
+	margin-left: 20px;
+}
+/*.logo
+{
+	color: aqua;
+	font-size: 35px;
+	
+	
+	float: left;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+*/
+.menu
+{
+	width: 100%;
+	float: right;
+	background-color:transparent;
+	height: 65px;
+	top: 0;
+	
+}
+
+ul
+{
+float: right;
+display: flex;
+justify-content: center;
+align-items: center;
+	padding-right: 2%;
+}
+
+
+li
+{
+	list-style: none;
+	margin-left: 40px;
+	margin-top: 17px;
+	font-size: 18px;
+}
+
+ul li a
+{
+	text-decoration: none;
+	color:black;
+	font-family: "Times New Roman";
+	
+	transition: 0.2s ease-in-out;
+}
+
+ul li a:hover
+{
+	color:aqua; 
+}
+
+.btn1
+{
+	width: 100px;
+	height: 35px;
+	background-color: transparent;
+	
+	border-radius: 5px;
+
+	border-color:aqua;
+	font-size: 18px;
+
+	
+	float: left;
+	
+	font-family: 'Times New Roman';
+	
+}
+
+.btn1:hover
+{
+	background-color: aqua;
+	border: none;
+	
+}
+.SObtn
+{
+	width: 60px;
+	height: 35px;
+	background-color:aqua;
+	
+	border-radius: 5px;
+	margin-top: 21px;
+	border-color:maroon;
+	font-size: 12px;
+	
+	float: left;
+	margin-left: 200px;
+	font-family: 'Times New Roman';
+}
+
+.SObtn:hover
+{
+	background-color:aqua;
+	border: none;
+	
+}
+
+
+
+
+
+

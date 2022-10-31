@@ -1,0 +1,322 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box;
+}
+
+
+.bg
+{
+	width: 100%;
+	background-image: linear-gradient(to top,rgba(0,0,0,0)50%,rgba(0,0,0,0)50% ), url("../../img/home3.jpg");
+	background-position:center;
+	background-size: cover;
+	height: 600px;
+}
+
+.content
+{
+	width: 100%;
+	height: auto;
+	padding-top: 20px;
+	
+	color: black;
+	position: relative;
+}
+.content .p
+{
+	padding-left: 20px;
+	padding-bottom: 25px;
+	font-family:  "Times New Roman";
+	letter-spacing: 1.2px;
+	line-height: 30px;
+	font-size:20px;
+}
+
+.content h1
+{
+	font-family:"Times New Roman";
+	font-size: 50px;
+	padding-left: 20px;
+	margin-top: 9%;
+	letter-spacing: 2px;
+}
+.content .join
+{
+	width: 120px;
+	height: 40px;
+	background-color: transparent;
+	border-radius: 10px;
+	border-color: #48EFD2;
+	margin-bottom: 10px;
+	margin-left: 20px;
+	font-size: 16px;
+	cursor: pointer;
+	
+}
+.content .join a
+{
+	text-decoration: none;
+	color:black;
+	transition: .3s ease;
+}
+.join:hover
+{
+	background-color: aqua;
+	border: none;
+	
+}
+.content span
+{
+	
+	font-size: 60px;
+}
+.about
+{
+	display: flex
+}
+
+table
+{
+	
+	width: 1900px;
+	height: 500px;
+	background-color: #FFEABF;
+	
+	
+}
+
+.text
+{
+	align:right;
+	padding-top: 5px;
+	color: black;
+	position: relative;
+	text-align: left;
+}
+.text h3
+{
+	font-family:"Times New Roman";
+	font-size: 50px;
+	padding-left: 20px;
+	padding-top: 10px;
+	letter-spacing: 2px;
+	margin-right: 50px;
+}
+.olp
+{
+	padding-left: 20px;
+	padding-bottom: 25px;
+	font-family:  "Times New Roman";
+	letter-spacing: 1.2px;
+	line-height: 30px;
+	font-size:18px;
+	margin-right: 50px;
+}
+.olp span
+{
+	color:#6A5C44;
+}
+
+
+.btn-b
+{
+	width: 190px;
+	height: 40px;
+	background-color:black;
+	
+	
+	margin-bottom: 10px;
+	margin-left: 20px;
+	font-size: 16px;
+	cursor: pointer;
+}
+button a
+{
+	text-decoration: none;
+	color:aliceblue;
+	transition: .3s ease;
+}
+table
+{
+	width: 100%;
+	
+}
+
+.oo
+{
+	padding-top: 5px;
+	background-color:azure;
+	height: 50px;
+	text-align: center;
+}
+.oo p
+{
+	padding-top: 18px;
+ 	font-size: 20px;
+	color: black;
+	letter-spacing: 3px;
+
+}
+.oo1
+{
+	
+	background-color:azure;
+	height: 50px;
+	text-align: center;
+	padding-top: 15px;
+	
+}
+.oo1 lable
+{
+	
+ 	font-size: 25px;
+	color: black;
+	letter-spacing: 3px;
+
+}
+a
+{
+	text-decoration: none;
+}
+.oo1 a
+{
+	text-decoration: none;
+}
+
+
+.st
+{
+	width: 100%;
+	height: 300px;
+	background-color:white;
+	
+}
+.st .learn
+{
+	font-family:"Times New Roman";
+	font-size: 18px;
+	padding-right: 220px;
+	padding-top: 10px;
+	letter-spacing: 2px;
+	
+}
+.imglearn
+{
+	padding-right: 200px;
+}
+
+.oo1
+{
+	background-color:#D5EEF0;
+	height: 50px;
+	text-align: center;
+}
+/* card css*/
+section
+{
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box;
+	font-family:  "Times New Roman";
+	height:300px;
+	display: flex;
+	justify-content: center;
+	background-color: #FFFFFF;
+	
+}
+
+section .card .card-img
+{
+	height: 140px;
+	width: 140px;
+	border-radius: 50%;
+	padding: 3px;
+	background-color: transparent;
+}
+
+section .card .card-img img
+{
+	height: 140px;
+	width: 140px;
+	object-fit: cover;
+	border-radius: 50%;
+	border: 3px solid #FF0004;
+}
+.container
+{
+	justify-content: center;
+    flex: wrap;
+    display:flex ;
+	background-color: whitesmoke;
+
+}
+.about
+{
+	display: flex;
+	padding: 10px 0 0;
+}
+.card-section
+{
+	background-color: whitesmoke;
+}
+section
+{
+	background-color: whitesmoke;
+}
+.card
+{
+	position: relative;
+	background: #FFFFFF;
+	border-radius: 20px;
+	margin: 20px 20px;
+	width: 280px;
+	padding-right: 10px;
+	height: 250px;
+	
+}
+.card::before
+{
+	content: "";
+	position: absolute;
+	height: 50%;
+	width: 100%;
+	background: #FD0004;
+	border-radius: 20px 20px 0 0;
+}
+
+.card1::before
+{
+	content: "";
+	position: absolute;
+	height: 50%;
+	width: 100%;
+	background:#73E1C7;
+	border-radius: 20px 20px 0 0;
+}
+
+
+.card .card-content
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 30px;
+	position: relative;
+	z-index: 100;
+}
+
+.card .details
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 10px;
+	color: brown;
+}
+.details .name
+{
+	font-size: 20px;
+	font-weight: 600;
+}

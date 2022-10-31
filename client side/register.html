@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<link rel="stylesheet" type="text/css" href="./css/cssL.css" />
+<script type="text/javascript" src="./js/formjs.js"></script>
+
+</head>
+
+<body>
+	<div class="reg"></div>
+	<table width= "367" height="588" align="center">
+	<form action="../server side/register.php" method="POST">	
+		<tr><td  align="center"><p class="header1">Create an Account</p><p>&nbsp;</p></td></tr>
+			
+		<tr><td width="317"><label>Full Name</label></td></tr>
+		<tr><td><input type="text" name="txtfullname" id="txtfullname" placeholder="Name With initials"  ></td></tr>
+			
+		<tr><td><label>Email</label></td></tr>
+		<tr><td><input type="email" name="txtemail" id="txtemail" required placeholder="Use valid email address" ><p id="p1"></p></td></tr>
+			
+		<tr><td><label>Gender</label></td></tr>
+		<tr><td>
+			<input type="radio" name="gender" id="txtmale" value="male"  checked ><label class="size">male</label>
+			<input type="radio" name="gender" id="txtfemale" value="female" ><label class="size">female</label>
+			<input type="radio" name="gender" id="txtother" value="other" ><label class="size">other</label>
+		</td></tr>
+		<tr><td><label>Country</label></td></tr>
+		<tr><td><input type="text" name="txtcountry"  id="txtcountry"></td></tr>
+		
+		<tr><td><label>Password</label></td></tr>
+		<tr><td><input type="password" name="pwd" id="pwd" maxlength="8" min="8" required></td></tr>
+		<tr><td><label>Comfirm password</label></td></tr>
+		<tr><td><input type="password" name="cpwd"  id="cpwd"  maxlength="8" min="8" required></td></tr>
+		
+		<tr><td><label>Account details</label></td></tr>
+		<tr><td><input type="text" name="txtaccount"  id="txtaccount"></td></tr>
+		
+		<tr><td><input type="checkbox" name="t&c"  id="t&c" required><label>terms and conditions <a href="./teams&condittion.php"> Click Here</a></label></td></tr>
+		
+		<tr ><td height="81" align="right"><p>
+		  <button name="btnsubmit" id="btnsubmit" onClick="validateAll();" >Create</button>
+			 <input type="reset" name="btnreset" id="btnreset"> 
+	  </p></td></tr>
+	</form>
+	</table>
+</div>
+	
+</body>
+</html>

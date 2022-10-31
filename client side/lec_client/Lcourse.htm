@@ -1,0 +1,100 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+	<link rel="stylesheet" type="text/css" href="../css/Lcourse.css" />
+	
+	<script type="text/javascript" src="../js/popup.js"></script>
+</head>
+
+<body>
+	
+	<div class="c-nav">
+		<ul class="cul">
+		<li><button class="addb" onClick="displayflex()">Add course</button></li>
+		<li><button class="addb" onClick="displayflex2()">Update course</button></li>
+		</ul>
+	</div>
+	<div class="p-class">
+	<div class="add-form" id="add-form">
+	<div class="close" id="close" ><img src="../../img/icon/close.png" alt="" width="25px" height="25px" onClick="displaynone()"></div>
+		
+		</div>
+	<div class="update-form-2" id="update-form">
+		<div class="manage">
+	<div class="close" id="close2" ><img src="../../img/icon/close.png" alt="" width="25px" height="25px" onClick="displaynone_2()"></div>	
+		<div class="c-add-form-2">
+						<h3 class="topic">ADD Lesson Files</h3>
+						<form action="../../server side/l_serverside/addlesson.php" method="post" class="addCF">
+							
+						<div class="div1">
+							<lable>File Name</lable><br>
+							<input type="text" name="txtname" id="txtname" placeholder="File Name" required><br>
+							<lable>File Type</lable><br>
+							<select required="true" >
+							<option disabled selected value="">-- Select One --</option>
+								
+							<option value="pdf">pdf</option>
+							<option value="doc">doc</option>	
+							</select  ><br>
+							<input type="submit" name="btnSubmit" id="btnSubmit" value="Add File">
+							<input type="reset" name="btnreset" id="btnreset" value="Cancle">
+						</div>											
+						<div class="div2">
+							
+							
+							
+						</div>
+						</form>
+					</div>	
+		
+		
+		</div>
+		</div>
+	</div>
+	
+	
+	<div class="p-class">
+	<div class="view-course-2">
+		<div class="C-content-2">
+			
+			<div class="title-course"><div><img src="../../img/5437683.jpg" alt="image" width="200px" height="200px" ></div>
+				<div class="title-Content"><div><h1>This is the content for Layout H1 Tag</h1></div>
+				<div><p>abcdefghijklmnopqrstuvwxyz</p></div>
+				</div>
+			</div>
+			
+			<div>
+		<div class="hr-CV"><hr></div>
+	 <div class="c-details">
+		 
+		 <h2 class="c-name-h2">".$row["lesson_name"]."</h2>
+		 <div class="lesson-d">
+		 <div class="d-1"><img src="../../img/icon/filetype/pdf.png" alt="pdf" width="25px" height="25px"></div><div class="d-2"><p>lesson 1</p></div>
+		 <div class="del-button" ><img src="../../img/icon/delete.png" alt="" width="20px" height="20px" ></div></div>
+		  <div class="lesson-d">
+		 <div class="d-1"><img src="../../img/icon/filetype/doc.png" alt="pdf" width="25px" height="25px"></div><div class="d-2"><p>lesson 1</p></div>
+			  <div class="del-button" ><img src="../../img/icon/delete.png" alt="" width="20px" height="20px" ></div>
+			  
+		 </div>
+		 <div class="upload-img"><img src="../../img/icon/add file.png" alt="add file"  width="25px" height="25px" onClick="displayflex2()" ></div>
+		 </div>
+			</div>
+			
+			
+			
+			
+			
+			
+		 </div>
+		
+		
+		
+		
+		
+	</div>
+	</div>
+		
+</body>
+</html>
