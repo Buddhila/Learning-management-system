@@ -10,7 +10,7 @@ if(!isset($_SESSION["txtLid"]))
 <html>
 <head>
 <meta charset="utf-8">
-<title>Untitled Document</title>
+<title>Lecture Home</title>
 	
 	<link rel="stylesheet" type="text/css" href="./client side/css/body.css" />
 	<link rel="stylesheet" type="text/css" href="./client side/css/footer.css" />
