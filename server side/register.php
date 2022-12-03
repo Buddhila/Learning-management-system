@@ -17,9 +17,7 @@ include_once './database.php';
 	{
         echo '<script>alert("E-mail already registered")</script>';
 		echo"please use new Email address and Submit again";
-		
-       
-    
+
     } 
 	else
 	{
